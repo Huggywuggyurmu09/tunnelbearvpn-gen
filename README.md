@@ -14,9 +14,12 @@ i am not responsible what u do or use the accs for
 # Features🔥
 fully request based cuz fuck u browser🔥
 
+
 bypass account limit🔥
 
+
 fast asf🔥
+
 
 http/https proxy🔥
 
@@ -34,4 +37,6 @@ https://github.com/user-attachments/assets/29351cb4-b79c-4c0f-bf91-003a6f027dcc
 
 # extra⭐
 ⭐5 stars il make it faster cleaner
+
+
 ⭐10 stars il release a referal claimer for more gigs
