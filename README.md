@@ -2,6 +2,8 @@
 yes u read it ofcourse a tunnelbearvpn this generates tunnelbearvpn accs and verifies them making sure
 u get ur 2 gb's of free data ignore the stuff behind the thingie in the txt in the showcase i removed it
 
+![Screenshot 2025-05-27 211715](https://github.com/user-attachments/assets/1e14a6b1-dae1-43d5-95ee-14400b847b3f)
+
 
 
 
