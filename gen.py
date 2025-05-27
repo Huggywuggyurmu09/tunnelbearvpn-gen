@@ -19,6 +19,7 @@ def load_proxies(filename="proxies.txt"):
 
 def save_credentials(email, password, proxy=None):
     line = f"{email}:{password}"
+    line += "\n"
     with write_lock:
         try:
             with open("accs.txt", "a") as f:
