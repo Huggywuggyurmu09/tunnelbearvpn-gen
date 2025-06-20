@@ -156,8 +156,8 @@ def worker(task_id, proxies_list):
     if proxies_list:
         chosen_proxy = random.choice(proxies_list)
         session.proxies = {
-            "http": f"http://{chosen_proxy}",
-            "https": f"http://{chosen_proxy}"
+            "http": f"socks5://{chosen_proxy}",
+            "https": f"socks5://{chosen_proxy}"
         }
         print(f"[Task {task_id}] Using proxy: {chosen_proxy}")
 
@@ -184,7 +184,7 @@ def worker(task_id, proxies_list):
 
     processed_links = set()
     verified = False
-    print(f"[Task {task_id}] Starting inbox check for verification link...")
+    #print(f"[Task {task_id}] Starting inbox check for verification link...")
     while not verified:
         inbox = check_inbox(session, token)
         if inbox:
@@ -209,6 +209,7 @@ def worker(task_id, proxies_list):
         if not verified:
             time.sleep(2)
     print(f"[Task {task_id}] Account {email_address} verified. Stopping inbox checks.")
+    save_credentials(email_address, password, chosen_proxy)
 
 if __name__ == '__main__':
     try:
