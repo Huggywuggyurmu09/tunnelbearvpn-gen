@@ -23,7 +23,7 @@ bypass account limit🔥
 fast asf🔥
 
 
-http/https proxy🔥
+socks5 proxy🔥
 
 
 
