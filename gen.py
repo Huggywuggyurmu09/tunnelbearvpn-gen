@@ -1,3 +1,4 @@
+# use socks5 proxies - they are faster :)
 import requests
 import time
 import re
@@ -184,7 +185,7 @@ def worker(task_id, proxies_list):
 
     processed_links = set()
     verified = False
-    #print(f"[Task {task_id}] Starting inbox check for verification link...")
+    print(f"[Task {task_id}] Starting inbox check for verification link...")
     while not verified:
         inbox = check_inbox(session, token)
         if inbox:
