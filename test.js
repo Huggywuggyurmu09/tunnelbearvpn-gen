@@ -99,7 +99,7 @@ async function tryLoginWithProxies(account, proxies) {
 
 async function main() {
   const accounts = readAccounts('accs.txt');
-  const proxies = readProxies('proxies.txt');
+  const proxies = readProxies('proxy.txt');
 
   if (accounts.length === 0 || proxies.length === 0) {
     console.error('⛔ No accounts or proxies loaded. Exiting.');
